@@ -49,12 +49,12 @@ class AnyDataType <T>{
 		this.var1 = var1;
 	}
 	
-	//Generic Method
+	//Generic Method without return type
 	public  <T> void print(){
 		System.out.println(var1);
 	}
 	
-	//
+	//Generic method with return
 //	public  T print(){
 //		return var1;
 //	}
